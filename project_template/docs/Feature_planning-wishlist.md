@@ -26,7 +26,7 @@
 
 
 
-# files/classes plannig to use:
+# files/classes planning to use:
 --- 
 •	director
 •	collision
