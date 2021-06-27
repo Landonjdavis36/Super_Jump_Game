@@ -1,5 +1,6 @@
-# [PROGRAM NAME] 
-[a description of the program]
+# [Super Jump] 
+---
+The program will be a game where an object has to jump through or inbetween obsticles. Everytime they are successful they score a point and keep jumping through as many as they can until they hit an object or the ground. This will cause them to lose there life and be given a score and then can restart and try again.
 
 ## Getting Started
 ---
@@ -22,8 +23,12 @@ root                    (project root folder)
 
 ## Required Technologies
 ---
-[list required libraries]
+Arcade
+math
 
 ## Authors
 ---
-[list author names and emails]
+Landon Davis [Landonjdavis3636@gmail.com]
+
+Sarah Flores [sarahflores1022@gmail.com]
+]
