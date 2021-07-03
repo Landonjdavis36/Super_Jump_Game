@@ -1,6 +1,6 @@
 import arcade
 import random
-from bird import Bird
+from player import Bird
 from pipe import Pipe
 from game_state import State
 from game_assets import *
