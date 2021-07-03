@@ -56,15 +56,11 @@ class Game(arcade.Window):
         self.pipe_sprites.append(start_pipe1[1])
 
     def draw_score_board(self):
-        """
-        Draws the score board
-        """
+       
         self.score_board.draw()
 
     def draw_background(self):
-        """
-        Draws the background.
-        """
+       
         arcade.draw_texture_rectangle(self.width // 2, self.height // 2, self.background.width, self.background.height,
                                       self.background, 0)
 
