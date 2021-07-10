@@ -43,7 +43,7 @@ class Game(arcade.Window):
         self.background = arcade.load_texture(random.choice(BACKGROUNDS))
         self.base = arcade.load_texture(BASE)
        
-        self.sprites = dict()
+        self.sprites = dict()  
         self.sprites['background'] = self.background
         self.sprites['base'] = self.base
       

@@ -11,8 +11,8 @@ BASE = "assets" + os.sep + "sprites" + os.sep + "base.png"
 PLAY_BUTTON = "assets" + os.sep + "sprites" + os.sep + "play.png"
 BACKGROUNDS = ["assets" + os.sep + "sprites" + os.sep + "background-day.png"]
 
-BIRDS = {'red': ["assets" + os.sep + "sprites" + os.sep + "flamingo-down.png", "assets" + os.sep + "sprites" + os.sep + "flamingo-normal.png",
-                    "assets" + os.sep + "sprites" + os.sep + "flamingo-up.png"]}
+BIRDS = {'red': ["assets" + os.sep + "sprites" + os.sep + "Wing_down.png", "assets" + os.sep + "sprites" + os.sep + "wing_stationary.png",
+                    "assets" + os.sep + "sprites" + os.sep + "wing_up.png"]}
 
 GET_READY_MESSAGE = "assets" + os.sep + "sprites" + os.sep + "message.png"
 
