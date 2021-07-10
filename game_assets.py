@@ -18,7 +18,10 @@ GET_READY_MESSAGE = "assets" + os.sep + "sprites" + os.sep + "message.png"
 
 GAME_OVER = "assets" + os.sep + "sprites" + os.sep + "gameover.png"
 
-
+SOUNDS = {'wing': arcade.load_sound("assets" + os.sep + "audio" + os.sep + "wing.mp3"),
+          'die': arcade.load_sound("assets" + os.sep + "audio" + os.sep + "die.wav"),
+          'point': arcade.load_sound("assets" + os.sep + "audio" + os.sep + "point.wav")}
+          
 
 MIN_HEIGHT = 50
 

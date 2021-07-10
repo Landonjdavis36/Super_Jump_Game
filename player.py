@@ -48,4 +48,4 @@ class Bird(arcade.AnimatedTimeSprite):
 
     def die(self):
         self.dead = True
-
+        arcade.play_sound(SOUNDS['die'])

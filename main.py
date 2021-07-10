@@ -6,7 +6,7 @@ from game_state import State
 from game_assets import *
 
 
-class Game(arcade.Window):
+class Game(arcade.Window):   
 
     def __init__(self, width, height):
 
@@ -136,6 +136,7 @@ class Game(arcade.Window):
 
             
             if self.flapped:
+                arcade.play_sound(SOUNDS['wing'])
                 self.bird.flap()
                 self.flapped = False
 
@@ -168,6 +169,7 @@ class Game(arcade.Window):
             self.bird_list.update()
 
             if self.bird.center_x >= self.pipe_sprites[0].center_x and not self.pipe_sprites[0].scored:
+                arcade.play_sound(SOUNDS['point'])
                 self.score += 1
             
                 self.pipe_sprites[0].scored = True
