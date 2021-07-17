@@ -4,15 +4,18 @@ import os
 import arcade
 
 
-PIPES = ["assets" + os.sep + "sprites" + os.sep + "pipe-brown.png"]
+PIPES = ["assets" + os.sep + "sprites" + os.sep + "pipe-jungletree.png","assets" + os.sep + "sprites" + os.sep + "pipe-palmtree.png"]
 
 BASE = "assets" + os.sep + "sprites" + os.sep + "base.png"
 
 PLAY_BUTTON = "assets" + os.sep + "sprites" + os.sep + "play.png"
-BACKGROUNDS = ["assets" + os.sep + "sprites" + os.sep + "background-day.png"]
+BACKGROUNDS = ["assets" + os.sep + "sprites" + os.sep + "background-jungle.png","assets" + os.sep + "sprites" + os.sep + "background-beach.png"]
 
-BIRDS = {'red': ["assets" + os.sep + "sprites" + os.sep + "Wing_down.png", "assets" + os.sep + "sprites" + os.sep + "wing_stationary.png",
-                    "assets" + os.sep + "sprites" + os.sep + "wing_up.png"]}
+BIRDS = {'flamingo': ["assets" + os.sep + "sprites" + os.sep + "Wing_down.png", "assets" + os.sep + "sprites" + os.sep + "wing_stationary.png",
+                    "assets" + os.sep + "sprites" + os.sep + "wing_up.png"],
+        'parrot': ["assets" + os.sep + "sprites" + os.sep + "parrot-down.png", "assets" + os.sep + "sprites" + os.sep + "parrot-normal.png",
+                    "assets" + os.sep + "sprites" + os.sep + "parrot-up.png"]}
+
 
 GET_READY_MESSAGE = "assets" + os.sep + "sprites" + os.sep + "message.png"
 
