@@ -31,4 +31,6 @@ math
 Landon Davis [Landonjdavis3636@gmail.com]
 
 Sarah Flores [sarahflores1022@gmail.com]
+
+Chase Johns [cdhj330@gmail.com]
 ]
