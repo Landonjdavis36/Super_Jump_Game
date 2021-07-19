@@ -34,3 +34,8 @@ Sarah Flores [sarahflores1022@gmail.com]
 
 Chase Johns [cdhj330@gmail.com]
 ]
+
+## sources used
+https://api.arcade.academy/en/latest/
+
+Assets created by: Landon Davis
