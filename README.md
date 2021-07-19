@@ -4,7 +4,7 @@ The program will be a game where an object has to jump through or inbetween obst
 
 ## Getting Started
 ---
-[how to install and run the program]
+After the nesesary files are downloaded. On Vscode go to the main.py file and then from from there run the program. the game and its start menu will then appear.
 
 ## Project Structure
 ---
